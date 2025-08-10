@@ -134,6 +134,6 @@ class CommandHandler:
 • Platform: {platform.system()} {platform.release()}
 • Python: {sys.version.split()[0]}
 • Features: Conference greetings, hourly announcements, command handling
-• Repository: https://github.com/your-username/jabberbot"""
+• Repository: https://github.com/kucenk/jabberpy"""
         
         return about_text
