@@ -1,0 +1,311 @@
+2025-08-10 13:52:12,495 - jabberbot - INFO - Loaded configuration from config.ini
+2025-08-10 13:52:12,503 - asyncio - DEBUG - Using selector: EpollSelector
+2025-08-10 13:52:12,507 - slixmpp.plugins.base - DEBUG - Loaded Plugin: RFC 6120: Stream Feature: STARTTLS
+2025-08-10 13:52:12,508 - slixmpp.plugins.base - DEBUG - Loaded Plugin: RFC 6120: Stream Feature: Resource Binding
+2025-08-10 13:52:12,510 - slixmpp.plugins.base - DEBUG - Loaded Plugin: RFC 3920: Stream Feature: Start Session
+2025-08-10 13:52:12,512 - slixmpp.plugins.base - DEBUG - Loaded Plugin: RFC 6121: Stream Feature: Roster Versioning
+2025-08-10 13:52:12,514 - slixmpp.plugins.base - DEBUG - Loaded Plugin: RFC 6121: Stream Feature: Subscription Pre-Approval
+2025-08-10 13:52:12,534 - slixmpp.plugins.base - DEBUG - Loaded Plugin: RFC 6120: Stream Feature: SASL
+2025-08-10 13:52:12,534 - __main__ - INFO - Starting Jabber bot...
+2025-08-10 13:52:12,534 - slixmpp.xmlstream.xmlstream - DEBUG - Event triggered: connecting
+2025-08-10 13:52:12,534 - __main__ - ERROR - Unexpected error: 'JabberBot' object has no attribute 'process'
+Traceback (most recent call last):
+  File "/home/runner/workspace/main.py", line 45, in main
+    bot.process(forever=False)
+    ^^^^^^^^^^^
+AttributeError: 'JabberBot' object has no attribute 'process'
+2025-08-10 13:53:10,875 - jabberbot - INFO - Loaded configuration from config.ini
+2025-08-10 13:53:10,885 - asyncio - DEBUG - Using selector: EpollSelector
+2025-08-10 13:53:10,887 - slixmpp.plugins.base - DEBUG - Loaded Plugin: RFC 6120: Stream Feature: STARTTLS
+2025-08-10 13:53:10,888 - slixmpp.plugins.base - DEBUG - Loaded Plugin: RFC 6120: Stream Feature: Resource Binding
+2025-08-10 13:53:10,888 - slixmpp.plugins.base - DEBUG - Loaded Plugin: RFC 3920: Stream Feature: Start Session
+2025-08-10 13:53:10,889 - slixmpp.plugins.base - DEBUG - Loaded Plugin: RFC 6121: Stream Feature: Roster Versioning
+2025-08-10 13:53:10,890 - slixmpp.plugins.base - DEBUG - Loaded Plugin: RFC 6121: Stream Feature: Subscription Pre-Approval
+2025-08-10 13:53:10,896 - slixmpp.plugins.base - DEBUG - Loaded Plugin: RFC 6120: Stream Feature: SASL
+2025-08-10 13:53:10,913 - slixmpp.plugins.base - DEBUG - Loaded Plugin: XEP-0030: Service Discovery
+2025-08-10 13:53:10,949 - slixmpp.plugins.base - DEBUG - Loaded Plugin: XEP-0004: Data Forms
+2025-08-10 13:53:10,971 - slixmpp.plugins.base - DEBUG - Loaded Plugin: XEP-0128: Service Discovery Extensions
+2025-08-10 13:53:10,972 - slixmpp.plugins.base - DEBUG - Loaded Plugin: XEP-0115: Entity Capabilities
+2025-08-10 13:53:10,994 - slixmpp.plugins.base - DEBUG - Loaded Plugin: XEP-0082: XMPP Date and Time Profiles
+2025-08-10 13:53:10,996 - slixmpp.plugins.base - DEBUG - Loaded Plugin: XEP-0131: Stanza Headers and Internet Metadata
+2025-08-10 13:53:10,997 - slixmpp.plugins.base - DEBUG - Loaded Plugin: XEP-0060: Publish-Subscribe
+2025-08-10 13:53:10,997 - slixmpp.plugins.base - DEBUG - Loaded Plugin: XEP-0163: Personal Eventing Protocol (PEP)
+2025-08-10 13:53:10,997 - slixmpp.plugins.base - DEBUG - Loaded Plugin: XEP-0172: User Nickname
+2025-08-10 13:53:11,001 - slixmpp.plugins.base - DEBUG - Loaded Plugin: XEP-0203: Delayed Delivery
+2025-08-10 13:53:11,006 - slixmpp.plugins.base - DEBUG - Loaded Plugin: XEP-0045: Multi-User Chat
+2025-08-10 13:53:11,011 - slixmpp.plugins.base - DEBUG - Loaded Plugin: XEP-0199: XMPP Ping
+2025-08-10 13:53:11,012 - __main__ - INFO - Starting Jabber bot...
+2025-08-10 13:53:11,012 - slixmpp.xmlstream.xmlstream - DEBUG - Event triggered: connecting
+2025-08-10 13:53:11,013 - __main__ - ERROR - Unexpected error: 'JabberBot' object has no attribute 'process'
+Traceback (most recent call last):
+  File "/home/runner/workspace/main.py", line 45, in main
+    bot.process()
+    ^^^^^^^^^^^
+AttributeError: 'JabberBot' object has no attribute 'process'
+2025-08-10 13:53:50,525 - jabberbot - INFO - Loaded configuration from config.ini
+2025-08-10 13:53:50,537 - asyncio - DEBUG - Using selector: EpollSelector
+2025-08-10 13:53:50,538 - slixmpp.plugins.base - DEBUG - Loaded Plugin: RFC 6120: Stream Feature: STARTTLS
+2025-08-10 13:53:50,539 - slixmpp.plugins.base - DEBUG - Loaded Plugin: RFC 6120: Stream Feature: Resource Binding
+2025-08-10 13:53:50,540 - slixmpp.plugins.base - DEBUG - Loaded Plugin: RFC 3920: Stream Feature: Start Session
+2025-08-10 13:53:50,541 - slixmpp.plugins.base - DEBUG - Loaded Plugin: RFC 6121: Stream Feature: Roster Versioning
+2025-08-10 13:53:50,542 - slixmpp.plugins.base - DEBUG - Loaded Plugin: RFC 6121: Stream Feature: Subscription Pre-Approval
+2025-08-10 13:53:50,548 - slixmpp.plugins.base - DEBUG - Loaded Plugin: RFC 6120: Stream Feature: SASL
+2025-08-10 13:53:50,551 - slixmpp.plugins.base - DEBUG - Loaded Plugin: XEP-0030: Service Discovery
+2025-08-10 13:53:50,556 - slixmpp.plugins.base - DEBUG - Loaded Plugin: XEP-0203: Delayed Delivery
+2025-08-10 13:53:50,556 - slixmpp.plugins.base - DEBUG - Loaded Plugin: XEP-0004: Data Forms
+2025-08-10 13:53:50,559 - slixmpp.plugins.base - DEBUG - Loaded Plugin: XEP-0082: XMPP Date and Time Profiles
+2025-08-10 13:53:50,560 - slixmpp.plugins.base - DEBUG - Loaded Plugin: XEP-0131: Stanza Headers and Internet Metadata
+2025-08-10 13:53:50,560 - slixmpp.plugins.base - DEBUG - Loaded Plugin: XEP-0060: Publish-Subscribe
+2025-08-10 13:53:50,562 - slixmpp.plugins.base - DEBUG - Loaded Plugin: XEP-0128: Service Discovery Extensions
+2025-08-10 13:53:50,563 - slixmpp.plugins.base - DEBUG - Loaded Plugin: XEP-0115: Entity Capabilities
+2025-08-10 13:53:50,563 - slixmpp.plugins.base - DEBUG - Loaded Plugin: XEP-0163: Personal Eventing Protocol (PEP)
+2025-08-10 13:53:50,563 - slixmpp.plugins.base - DEBUG - Loaded Plugin: XEP-0172: User Nickname
+2025-08-10 13:53:50,564 - slixmpp.plugins.base - DEBUG - Loaded Plugin: XEP-0045: Multi-User Chat
+2025-08-10 13:53:50,565 - slixmpp.plugins.base - DEBUG - Loaded Plugin: XEP-0199: XMPP Ping
+2025-08-10 13:53:50,566 - __main__ - INFO - Starting Jabber bot...
+2025-08-10 13:53:50,566 - slixmpp.xmlstream.xmlstream - DEBUG - Event triggered: connecting
+2025-08-10 13:53:50,566 - __main__ - ERROR - Unexpected error: 'JabberBot' object has no attribute 'process'
+Traceback (most recent call last):
+  File "/home/runner/workspace/main.py", line 45, in main
+    bot.process(forever=True)
+    ^^^^^^^^^^^
+AttributeError: 'JabberBot' object has no attribute 'process'
+2025-08-10 13:54:05,258 - jabberbot - INFO - Loaded configuration from config.ini
+2025-08-10 13:54:05,269 - slixmpp.plugins.base - DEBUG - Loaded Plugin: RFC 6120: Stream Feature: STARTTLS
+2025-08-10 13:54:05,270 - slixmpp.plugins.base - DEBUG - Loaded Plugin: RFC 6120: Stream Feature: Resource Binding
+2025-08-10 13:54:05,271 - slixmpp.plugins.base - DEBUG - Loaded Plugin: RFC 3920: Stream Feature: Start Session
+2025-08-10 13:54:05,271 - slixmpp.plugins.base - DEBUG - Loaded Plugin: RFC 6121: Stream Feature: Roster Versioning
+2025-08-10 13:54:05,272 - slixmpp.plugins.base - DEBUG - Loaded Plugin: RFC 6121: Stream Feature: Subscription Pre-Approval
+2025-08-10 13:54:05,277 - slixmpp.plugins.base - DEBUG - Loaded Plugin: RFC 6120: Stream Feature: SASL
+2025-08-10 13:54:05,280 - slixmpp.plugins.base - DEBUG - Loaded Plugin: XEP-0030: Service Discovery
+2025-08-10 13:54:05,283 - slixmpp.plugins.base - DEBUG - Loaded Plugin: XEP-0004: Data Forms
+2025-08-10 13:54:05,284 - slixmpp.plugins.base - DEBUG - Loaded Plugin: XEP-0203: Delayed Delivery
+2025-08-10 13:54:05,288 - slixmpp.plugins.base - DEBUG - Loaded Plugin: XEP-0082: XMPP Date and Time Profiles
+2025-08-10 13:54:05,289 - slixmpp.plugins.base - DEBUG - Loaded Plugin: XEP-0131: Stanza Headers and Internet Metadata
+2025-08-10 13:54:05,289 - slixmpp.plugins.base - DEBUG - Loaded Plugin: XEP-0060: Publish-Subscribe
+2025-08-10 13:54:05,291 - slixmpp.plugins.base - DEBUG - Loaded Plugin: XEP-0128: Service Discovery Extensions
+2025-08-10 13:54:05,293 - slixmpp.plugins.base - DEBUG - Loaded Plugin: XEP-0115: Entity Capabilities
+2025-08-10 13:54:05,293 - slixmpp.plugins.base - DEBUG - Loaded Plugin: XEP-0163: Personal Eventing Protocol (PEP)
+2025-08-10 13:54:05,293 - slixmpp.plugins.base - DEBUG - Loaded Plugin: XEP-0172: User Nickname
+2025-08-10 13:54:05,293 - slixmpp.plugins.base - DEBUG - Loaded Plugin: XEP-0045: Multi-User Chat
+2025-08-10 13:54:05,294 - slixmpp.plugins.base - DEBUG - Loaded Plugin: XEP-0199: XMPP Ping
+2025-08-10 13:54:05,295 - __main__ - INFO - Starting Jabber bot...
+2025-08-10 13:54:05,295 - slixmpp.xmlstream.xmlstream - DEBUG - Event triggered: connecting
+2025-08-10 13:54:05,295 - __main__ - ERROR - Unexpected error: 'JabberBot' object has no attribute 'process'
+Traceback (most recent call last):
+  File "/home/runner/workspace/main.py", line 45, in main_async
+    await bot.process(forever=True)
+          ^^^^^^^^^^^
+AttributeError: 'JabberBot' object has no attribute 'process'
+2025-08-10 13:54:32,495 - jabberbot - INFO - Loaded configuration from config.ini
+2025-08-10 13:54:32,512 - slixmpp.plugins.base - DEBUG - Loaded Plugin: RFC 6120: Stream Feature: STARTTLS
+2025-08-10 13:54:32,513 - slixmpp.plugins.base - DEBUG - Loaded Plugin: RFC 6120: Stream Feature: Resource Binding
+2025-08-10 13:54:32,514 - slixmpp.plugins.base - DEBUG - Loaded Plugin: RFC 3920: Stream Feature: Start Session
+2025-08-10 13:54:32,515 - slixmpp.plugins.base - DEBUG - Loaded Plugin: RFC 6121: Stream Feature: Roster Versioning
+2025-08-10 13:54:32,516 - slixmpp.plugins.base - DEBUG - Loaded Plugin: RFC 6121: Stream Feature: Subscription Pre-Approval
+2025-08-10 13:54:32,527 - slixmpp.plugins.base - DEBUG - Loaded Plugin: RFC 6120: Stream Feature: SASL
+2025-08-10 13:54:32,530 - slixmpp.plugins.base - DEBUG - Loaded Plugin: XEP-0030: Service Discovery
+2025-08-10 13:54:32,545 - slixmpp.plugins.base - DEBUG - Loaded Plugin: XEP-0004: Data Forms
+2025-08-10 13:54:32,545 - slixmpp.plugins.base - DEBUG - Loaded Plugin: XEP-0128: Service Discovery Extensions
+2025-08-10 13:54:32,546 - slixmpp.plugins.base - DEBUG - Loaded Plugin: XEP-0115: Entity Capabilities
+2025-08-10 13:54:32,552 - slixmpp.plugins.base - DEBUG - Loaded Plugin: XEP-0131: Stanza Headers and Internet Metadata
+2025-08-10 13:54:32,552 - slixmpp.plugins.base - DEBUG - Loaded Plugin: XEP-0082: XMPP Date and Time Profiles
+2025-08-10 13:54:32,552 - slixmpp.plugins.base - DEBUG - Loaded Plugin: XEP-0060: Publish-Subscribe
+2025-08-10 13:54:32,552 - slixmpp.plugins.base - DEBUG - Loaded Plugin: XEP-0163: Personal Eventing Protocol (PEP)
+2025-08-10 13:54:32,552 - slixmpp.plugins.base - DEBUG - Loaded Plugin: XEP-0172: User Nickname
+2025-08-10 13:54:32,555 - slixmpp.plugins.base - DEBUG - Loaded Plugin: XEP-0203: Delayed Delivery
+2025-08-10 13:54:32,555 - slixmpp.plugins.base - DEBUG - Loaded Plugin: XEP-0045: Multi-User Chat
+2025-08-10 13:54:32,556 - slixmpp.plugins.base - DEBUG - Loaded Plugin: XEP-0199: XMPP Ping
+2025-08-10 13:54:32,556 - __main__ - INFO - Starting Jabber bot...
+2025-08-10 13:54:32,556 - slixmpp.xmlstream.xmlstream - DEBUG - Event triggered: connecting
+2025-08-10 13:54:32,559 - slixmpp.xmlstream.resolver - DEBUG - DNS: Querying SRV records for example.com
+2025-08-10 13:54:32,577 - slixmpp.xmlstream.resolver - DEBUG - DNS: Exception while querying for example.com SRV records: (4, 'Domain name not found')
+2025-08-10 13:54:32,577 - slixmpp.xmlstream.resolver - DEBUG - DNS: Exception while querying for example.com SRV records: (4, 'Domain name not found')
+2025-08-10 13:54:32,577 - slixmpp.xmlstream.resolver - DEBUG - DNS: Querying example.com for AAAA records.
+2025-08-10 13:54:32,581 - slixmpp.xmlstream.resolver - DEBUG - DNS: Querying example.com for A records.
+2025-08-10 13:54:32,597 - slixmpp.xmlstream.xmlstream - DEBUG - Connection failed: [Errno 99] Cannot assign requested address
+2025-08-10 13:54:32,599 - slixmpp.xmlstream.xmlstream - DEBUG - Event triggered: connection_failed
+2025-08-10 13:54:32,601 - slixmpp.xmlstream.xmlstream - DEBUG - Connection failed: [Errno 99] Cannot assign requested address
+2025-08-10 13:54:32,601 - slixmpp.xmlstream.xmlstream - DEBUG - Event triggered: connection_failed
+2025-08-10 13:54:32,618 - slixmpp.xmlstream.xmlstream - DEBUG - Connection failed: [Errno 99] Cannot assign requested address
+2025-08-10 13:54:32,619 - slixmpp.xmlstream.xmlstream - DEBUG - Event triggered: connection_failed
+2025-08-10 13:54:32,619 - slixmpp.xmlstream.xmlstream - DEBUG - Connection failed: [Errno 99] Cannot assign requested address
+2025-08-10 13:54:32,619 - slixmpp.xmlstream.xmlstream - DEBUG - Event triggered: connection_failed
+2025-08-10 13:54:32,629 - slixmpp.xmlstream.xmlstream - DEBUG - Connection failed: [Errno 99] Cannot assign requested address
+2025-08-10 13:54:32,629 - slixmpp.xmlstream.xmlstream - DEBUG - Event triggered: connection_failed
+2025-08-10 13:54:32,630 - slixmpp.xmlstream.xmlstream - DEBUG - Connection failed: [Errno 99] Cannot assign requested address
+2025-08-10 13:54:32,630 - slixmpp.xmlstream.xmlstream - DEBUG - Event triggered: connection_failed
+2025-08-10 13:54:32,639 - slixmpp.xmlstream.xmlstream - DEBUG - Connection failed: [Errno 99] Cannot assign requested address
+2025-08-10 13:54:32,639 - slixmpp.xmlstream.xmlstream - DEBUG - Event triggered: connection_failed
+2025-08-10 13:54:32,639 - slixmpp.xmlstream.xmlstream - DEBUG - Connection failed: [Errno 99] Cannot assign requested address
+2025-08-10 13:54:32,640 - slixmpp.xmlstream.xmlstream - DEBUG - Event triggered: connection_failed
+2025-08-10 13:54:32,653 - slixmpp.xmlstream.xmlstream - DEBUG - Connection failed: [Errno 99] Cannot assign requested address
+2025-08-10 13:54:32,654 - slixmpp.xmlstream.xmlstream - DEBUG - Event triggered: connection_failed
+2025-08-10 13:54:32,654 - slixmpp.xmlstream.xmlstream - DEBUG - Connection failed: [Errno 99] Cannot assign requested address
+2025-08-10 13:54:32,655 - slixmpp.xmlstream.xmlstream - DEBUG - Event triggered: connection_failed
+2025-08-10 13:54:32,680 - slixmpp.xmlstream.xmlstream - DEBUG - Connection failed: [Errno 99] Cannot assign requested address
+2025-08-10 13:54:32,680 - slixmpp.xmlstream.xmlstream - DEBUG - Event triggered: connection_failed
+2025-08-10 13:54:32,681 - slixmpp.xmlstream.xmlstream - DEBUG - Connection failed: [Errno 99] Cannot assign requested address
+2025-08-10 13:54:32,681 - slixmpp.xmlstream.xmlstream - DEBUG - Event triggered: connection_failed
+2025-08-10 13:56:41,861 - slixmpp.xmlstream.xmlstream - DEBUG - Connection failed: [Errno 110] Connect call failed ('96.7.128.198', 5222)
+2025-08-10 13:56:41,862 - slixmpp.xmlstream.xmlstream - DEBUG - Event triggered: connection_failed
+2025-08-10 14:11:28,812 - jabberbot - INFO - Loaded configuration from config.ini
+2025-08-10 14:11:28,832 - slixmpp.plugins.base - DEBUG - Loaded Plugin: RFC 6120: Stream Feature: STARTTLS
+2025-08-10 14:11:28,837 - slixmpp.plugins.base - DEBUG - Loaded Plugin: RFC 6120: Stream Feature: Resource Binding
+2025-08-10 14:11:28,839 - slixmpp.plugins.base - DEBUG - Loaded Plugin: RFC 3920: Stream Feature: Start Session
+2025-08-10 14:11:28,841 - slixmpp.plugins.base - DEBUG - Loaded Plugin: RFC 6121: Stream Feature: Roster Versioning
+2025-08-10 14:11:28,843 - slixmpp.plugins.base - DEBUG - Loaded Plugin: RFC 6121: Stream Feature: Subscription Pre-Approval
+2025-08-10 14:11:28,863 - slixmpp.plugins.base - DEBUG - Loaded Plugin: RFC 6120: Stream Feature: SASL
+2025-08-10 14:11:28,875 - slixmpp.plugins.base - DEBUG - Loaded Plugin: XEP-0030: Service Discovery
+2025-08-10 14:11:28,887 - slixmpp.plugins.base - DEBUG - Loaded Plugin: XEP-0004: Data Forms
+2025-08-10 14:11:28,896 - slixmpp.plugins.base - DEBUG - Loaded Plugin: XEP-0203: Delayed Delivery
+2025-08-10 14:11:28,908 - slixmpp.plugins.base - DEBUG - Loaded Plugin: XEP-0131: Stanza Headers and Internet Metadata
+2025-08-10 14:11:28,909 - slixmpp.plugins.base - DEBUG - Loaded Plugin: XEP-0082: XMPP Date and Time Profiles
+2025-08-10 14:11:28,909 - slixmpp.plugins.base - DEBUG - Loaded Plugin: XEP-0060: Publish-Subscribe
+2025-08-10 14:11:28,914 - slixmpp.plugins.base - DEBUG - Loaded Plugin: XEP-0128: Service Discovery Extensions
+2025-08-10 14:11:28,915 - slixmpp.plugins.base - DEBUG - Loaded Plugin: XEP-0115: Entity Capabilities
+2025-08-10 14:11:28,915 - slixmpp.plugins.base - DEBUG - Loaded Plugin: XEP-0163: Personal Eventing Protocol (PEP)
+2025-08-10 14:11:28,915 - slixmpp.plugins.base - DEBUG - Loaded Plugin: XEP-0172: User Nickname
+2025-08-10 14:11:28,915 - slixmpp.plugins.base - DEBUG - Loaded Plugin: XEP-0045: Multi-User Chat
+2025-08-10 14:11:28,917 - slixmpp.plugins.base - DEBUG - Loaded Plugin: XEP-0199: XMPP Ping
+2025-08-10 14:11:28,917 - __main__ - INFO - Starting Jabber bot...
+2025-08-10 14:11:28,918 - slixmpp.xmlstream.xmlstream - DEBUG - Event triggered: connecting
+2025-08-10 14:11:28,918 - slixmpp.xmlstream.resolver - DEBUG - DNS: Querying SRV records for example.com
+2025-08-10 14:11:28,922 - slixmpp.xmlstream.resolver - DEBUG - DNS: Exception while querying for example.com SRV records: (4, 'Domain name not found')
+2025-08-10 14:11:28,922 - slixmpp.xmlstream.resolver - DEBUG - DNS: Exception while querying for example.com SRV records: (4, 'Domain name not found')
+2025-08-10 14:11:28,922 - slixmpp.xmlstream.resolver - DEBUG - DNS: Querying example.com for AAAA records.
+2025-08-10 14:11:28,924 - slixmpp.xmlstream.resolver - DEBUG - DNS: Querying example.com for A records.
+2025-08-10 14:11:28,935 - slixmpp.xmlstream.xmlstream - DEBUG - Connection failed: [Errno 99] Cannot assign requested address
+2025-08-10 14:11:28,936 - slixmpp.xmlstream.xmlstream - DEBUG - Event triggered: connection_failed
+2025-08-10 14:11:28,936 - slixmpp.xmlstream.xmlstream - DEBUG - Connection failed: [Errno 99] Cannot assign requested address
+2025-08-10 14:11:28,936 - slixmpp.xmlstream.xmlstream - DEBUG - Event triggered: connection_failed
+2025-08-10 14:11:28,943 - slixmpp.xmlstream.xmlstream - DEBUG - Connection failed: [Errno 99] Cannot assign requested address
+2025-08-10 14:11:28,944 - slixmpp.xmlstream.xmlstream - DEBUG - Event triggered: connection_failed
+2025-08-10 14:11:28,944 - slixmpp.xmlstream.xmlstream - DEBUG - Connection failed: [Errno 99] Cannot assign requested address
+2025-08-10 14:11:28,944 - slixmpp.xmlstream.xmlstream - DEBUG - Event triggered: connection_failed
+2025-08-10 14:11:28,953 - slixmpp.xmlstream.xmlstream - DEBUG - Connection failed: [Errno 99] Cannot assign requested address
+2025-08-10 14:11:28,953 - slixmpp.xmlstream.xmlstream - DEBUG - Event triggered: connection_failed
+2025-08-10 14:11:28,953 - slixmpp.xmlstream.xmlstream - DEBUG - Connection failed: [Errno 99] Cannot assign requested address
+2025-08-10 14:11:28,953 - slixmpp.xmlstream.xmlstream - DEBUG - Event triggered: connection_failed
+2025-08-10 14:11:28,964 - slixmpp.xmlstream.xmlstream - DEBUG - Connection failed: [Errno 99] Cannot assign requested address
+2025-08-10 14:11:28,964 - slixmpp.xmlstream.xmlstream - DEBUG - Event triggered: connection_failed
+2025-08-10 14:11:28,965 - slixmpp.xmlstream.xmlstream - DEBUG - Connection failed: [Errno 99] Cannot assign requested address
+2025-08-10 14:11:28,965 - slixmpp.xmlstream.xmlstream - DEBUG - Event triggered: connection_failed
+2025-08-10 14:11:28,973 - slixmpp.xmlstream.xmlstream - DEBUG - Connection failed: [Errno 99] Cannot assign requested address
+2025-08-10 14:11:28,973 - slixmpp.xmlstream.xmlstream - DEBUG - Event triggered: connection_failed
+2025-08-10 14:11:28,973 - slixmpp.xmlstream.xmlstream - DEBUG - Connection failed: [Errno 99] Cannot assign requested address
+2025-08-10 14:11:28,974 - slixmpp.xmlstream.xmlstream - DEBUG - Event triggered: connection_failed
+2025-08-10 14:11:28,981 - slixmpp.xmlstream.xmlstream - DEBUG - Connection failed: [Errno 99] Cannot assign requested address
+2025-08-10 14:11:28,982 - slixmpp.xmlstream.xmlstream - DEBUG - Event triggered: connection_failed
+2025-08-10 14:11:28,982 - slixmpp.xmlstream.xmlstream - DEBUG - Connection failed: [Errno 99] Cannot assign requested address
+2025-08-10 14:11:28,982 - slixmpp.xmlstream.xmlstream - DEBUG - Event triggered: connection_failed
+2025-08-10 14:13:38,396 - slixmpp.xmlstream.xmlstream - DEBUG - Connection failed: [Errno 110] Connect call failed ('96.7.128.175', 5222)
+2025-08-10 14:13:38,397 - slixmpp.xmlstream.xmlstream - DEBUG - Event triggered: connection_failed
+2025-08-10 14:15:49,468 - slixmpp.xmlstream.xmlstream - DEBUG - Connection failed: [Errno 110] Connect call failed ('96.7.128.175', 5222)
+2025-08-10 14:15:49,468 - slixmpp.xmlstream.xmlstream - DEBUG - Event triggered: connection_failed
+2025-08-10 14:18:00,540 - slixmpp.xmlstream.xmlstream - DEBUG - Connection failed: [Errno 110] Connect call failed ('23.215.0.138', 5222)
+2025-08-10 14:18:00,541 - slixmpp.xmlstream.xmlstream - DEBUG - Event triggered: connection_failed
+2025-08-10 14:20:11,613 - slixmpp.xmlstream.xmlstream - DEBUG - Connection failed: [Errno 110] Connect call failed ('23.215.0.138', 5222)
+2025-08-10 14:20:11,613 - slixmpp.xmlstream.xmlstream - DEBUG - Event triggered: connection_failed
+2025-08-10 14:22:22,684 - slixmpp.xmlstream.xmlstream - DEBUG - Connection failed: [Errno 110] Connect call failed ('23.192.228.84', 5222)
+2025-08-10 14:22:22,685 - slixmpp.xmlstream.xmlstream - DEBUG - Event triggered: connection_failed
+2025-08-10 14:22:56,623 - jabberbot - INFO - Loaded configuration from config.ini
+2025-08-10 14:22:56,636 - slixmpp.plugins.base - DEBUG - Loaded Plugin: RFC 6120: Stream Feature: STARTTLS
+2025-08-10 14:22:56,638 - slixmpp.plugins.base - DEBUG - Loaded Plugin: RFC 6120: Stream Feature: Resource Binding
+2025-08-10 14:22:56,638 - slixmpp.plugins.base - DEBUG - Loaded Plugin: RFC 3920: Stream Feature: Start Session
+2025-08-10 14:22:56,639 - slixmpp.plugins.base - DEBUG - Loaded Plugin: RFC 6121: Stream Feature: Roster Versioning
+2025-08-10 14:22:56,640 - slixmpp.plugins.base - DEBUG - Loaded Plugin: RFC 6121: Stream Feature: Subscription Pre-Approval
+2025-08-10 14:22:56,648 - slixmpp.plugins.base - DEBUG - Loaded Plugin: RFC 6120: Stream Feature: SASL
+2025-08-10 14:22:56,651 - slixmpp.plugins.base - DEBUG - Loaded Plugin: XEP-0030: Service Discovery
+2025-08-10 14:22:56,656 - slixmpp.plugins.base - DEBUG - Loaded Plugin: XEP-0203: Delayed Delivery
+2025-08-10 14:22:56,656 - slixmpp.plugins.base - DEBUG - Loaded Plugin: XEP-0004: Data Forms
+2025-08-10 14:22:56,659 - slixmpp.plugins.base - DEBUG - Loaded Plugin: XEP-0128: Service Discovery Extensions
+2025-08-10 14:22:56,660 - slixmpp.plugins.base - DEBUG - Loaded Plugin: XEP-0115: Entity Capabilities
+2025-08-10 14:22:56,665 - slixmpp.plugins.base - DEBUG - Loaded Plugin: XEP-0131: Stanza Headers and Internet Metadata
+2025-08-10 14:22:56,665 - slixmpp.plugins.base - DEBUG - Loaded Plugin: XEP-0082: XMPP Date and Time Profiles
+2025-08-10 14:22:56,665 - slixmpp.plugins.base - DEBUG - Loaded Plugin: XEP-0060: Publish-Subscribe
+2025-08-10 14:22:56,665 - slixmpp.plugins.base - DEBUG - Loaded Plugin: XEP-0163: Personal Eventing Protocol (PEP)
+2025-08-10 14:22:56,665 - slixmpp.plugins.base - DEBUG - Loaded Plugin: XEP-0172: User Nickname
+2025-08-10 14:22:56,666 - slixmpp.plugins.base - DEBUG - Loaded Plugin: XEP-0045: Multi-User Chat
+2025-08-10 14:22:56,666 - slixmpp.plugins.base - DEBUG - Loaded Plugin: XEP-0199: XMPP Ping
+2025-08-10 14:22:56,667 - __main__ - INFO - Starting Jabber bot...
+2025-08-10 14:22:56,667 - slixmpp.xmlstream.xmlstream - DEBUG - Event triggered: connecting
+2025-08-10 14:22:56,667 - slixmpp.xmlstream.resolver - DEBUG - DNS: Querying SRV records for example.com
+2025-08-10 14:22:56,684 - slixmpp.xmlstream.resolver - DEBUG - DNS: Exception while querying for example.com SRV records: (4, 'Domain name not found')
+2025-08-10 14:22:56,684 - slixmpp.xmlstream.resolver - DEBUG - DNS: Exception while querying for example.com SRV records: (4, 'Domain name not found')
+2025-08-10 14:22:56,684 - slixmpp.xmlstream.resolver - DEBUG - DNS: Querying example.com for AAAA records.
+2025-08-10 14:22:56,687 - slixmpp.xmlstream.resolver - DEBUG - DNS: Querying example.com for A records.
+2025-08-10 14:22:56,701 - slixmpp.xmlstream.xmlstream - DEBUG - Connection failed: [Errno 99] Cannot assign requested address
+2025-08-10 14:22:56,701 - slixmpp.xmlstream.xmlstream - DEBUG - Event triggered: connection_failed
+2025-08-10 14:22:56,701 - slixmpp.xmlstream.xmlstream - DEBUG - Connection failed: [Errno 99] Cannot assign requested address
+2025-08-10 14:22:56,701 - slixmpp.xmlstream.xmlstream - DEBUG - Event triggered: connection_failed
+2025-08-10 14:22:56,710 - slixmpp.xmlstream.xmlstream - DEBUG - Connection failed: [Errno 99] Cannot assign requested address
+2025-08-10 14:22:56,711 - slixmpp.xmlstream.xmlstream - DEBUG - Event triggered: connection_failed
+2025-08-10 14:22:56,711 - slixmpp.xmlstream.xmlstream - DEBUG - Connection failed: [Errno 99] Cannot assign requested address
+2025-08-10 14:22:56,711 - slixmpp.xmlstream.xmlstream - DEBUG - Event triggered: connection_failed
+2025-08-10 14:22:56,718 - slixmpp.xmlstream.xmlstream - DEBUG - Connection failed: [Errno 99] Cannot assign requested address
+2025-08-10 14:22:56,718 - slixmpp.xmlstream.xmlstream - DEBUG - Event triggered: connection_failed
+2025-08-10 14:22:56,719 - slixmpp.xmlstream.xmlstream - DEBUG - Connection failed: [Errno 99] Cannot assign requested address
+2025-08-10 14:22:56,719 - slixmpp.xmlstream.xmlstream - DEBUG - Event triggered: connection_failed
+2025-08-10 14:22:56,727 - slixmpp.xmlstream.xmlstream - DEBUG - Connection failed: [Errno 99] Cannot assign requested address
+2025-08-10 14:22:56,727 - slixmpp.xmlstream.xmlstream - DEBUG - Event triggered: connection_failed
+2025-08-10 14:22:56,728 - slixmpp.xmlstream.xmlstream - DEBUG - Connection failed: [Errno 99] Cannot assign requested address
+2025-08-10 14:22:56,728 - slixmpp.xmlstream.xmlstream - DEBUG - Event triggered: connection_failed
+2025-08-10 14:22:56,736 - slixmpp.xmlstream.xmlstream - DEBUG - Connection failed: [Errno 99] Cannot assign requested address
+2025-08-10 14:22:56,737 - slixmpp.xmlstream.xmlstream - DEBUG - Event triggered: connection_failed
+2025-08-10 14:22:56,737 - slixmpp.xmlstream.xmlstream - DEBUG - Connection failed: [Errno 99] Cannot assign requested address
+2025-08-10 14:22:56,737 - slixmpp.xmlstream.xmlstream - DEBUG - Event triggered: connection_failed
+2025-08-10 14:22:56,745 - slixmpp.xmlstream.xmlstream - DEBUG - Connection failed: [Errno 99] Cannot assign requested address
+2025-08-10 14:22:56,746 - slixmpp.xmlstream.xmlstream - DEBUG - Event triggered: connection_failed
+2025-08-10 14:22:56,746 - slixmpp.xmlstream.xmlstream - DEBUG - Connection failed: [Errno 99] Cannot assign requested address
+2025-08-10 14:22:56,746 - slixmpp.xmlstream.xmlstream - DEBUG - Event triggered: connection_failed
+2025-08-10 14:37:39,127 - jabberbot - INFO - Loaded configuration from config.ini
+2025-08-10 14:37:39,140 - slixmpp.plugins.base - DEBUG - Loaded Plugin: RFC 6120: Stream Feature: STARTTLS
+2025-08-10 14:37:39,144 - slixmpp.plugins.base - DEBUG - Loaded Plugin: RFC 6120: Stream Feature: Resource Binding
+2025-08-10 14:37:39,145 - slixmpp.plugins.base - DEBUG - Loaded Plugin: RFC 3920: Stream Feature: Start Session
+2025-08-10 14:37:39,146 - slixmpp.plugins.base - DEBUG - Loaded Plugin: RFC 6121: Stream Feature: Roster Versioning
+2025-08-10 14:37:39,147 - slixmpp.plugins.base - DEBUG - Loaded Plugin: RFC 6121: Stream Feature: Subscription Pre-Approval
+2025-08-10 14:37:39,161 - slixmpp.plugins.base - DEBUG - Loaded Plugin: RFC 6120: Stream Feature: SASL
+2025-08-10 14:37:39,174 - slixmpp.plugins.base - DEBUG - Loaded Plugin: XEP-0030: Service Discovery
+2025-08-10 14:37:39,186 - slixmpp.plugins.base - DEBUG - Loaded Plugin: XEP-0004: Data Forms
+2025-08-10 14:37:39,199 - slixmpp.plugins.base - DEBUG - Loaded Plugin: XEP-0082: XMPP Date and Time Profiles
+2025-08-10 14:37:39,200 - slixmpp.plugins.base - DEBUG - Loaded Plugin: XEP-0131: Stanza Headers and Internet Metadata
+2025-08-10 14:37:39,200 - slixmpp.plugins.base - DEBUG - Loaded Plugin: XEP-0060: Publish-Subscribe
+2025-08-10 14:37:39,204 - slixmpp.plugins.base - DEBUG - Loaded Plugin: XEP-0128: Service Discovery Extensions
+2025-08-10 14:37:39,204 - slixmpp.plugins.base - DEBUG - Loaded Plugin: XEP-0115: Entity Capabilities
+2025-08-10 14:37:39,204 - slixmpp.plugins.base - DEBUG - Loaded Plugin: XEP-0163: Personal Eventing Protocol (PEP)
+2025-08-10 14:37:39,204 - slixmpp.plugins.base - DEBUG - Loaded Plugin: XEP-0172: User Nickname
+2025-08-10 14:37:39,209 - slixmpp.plugins.base - DEBUG - Loaded Plugin: XEP-0203: Delayed Delivery
+2025-08-10 14:37:39,209 - slixmpp.plugins.base - DEBUG - Loaded Plugin: XEP-0045: Multi-User Chat
+2025-08-10 14:37:39,211 - slixmpp.plugins.base - DEBUG - Loaded Plugin: XEP-0199: XMPP Ping
+2025-08-10 14:37:39,211 - __main__ - INFO - Starting Jabber bot...
+2025-08-10 14:37:39,211 - slixmpp.xmlstream.xmlstream - DEBUG - Event triggered: connecting
+2025-08-10 14:37:39,212 - slixmpp.xmlstream.resolver - DEBUG - DNS: Querying SRV records for example.com
+2025-08-10 14:37:39,227 - slixmpp.xmlstream.resolver - DEBUG - DNS: Exception while querying for example.com SRV records: (4, 'Domain name not found')
+2025-08-10 14:37:39,227 - slixmpp.xmlstream.resolver - DEBUG - DNS: Exception while querying for example.com SRV records: (4, 'Domain name not found')
+2025-08-10 14:37:39,227 - slixmpp.xmlstream.resolver - DEBUG - DNS: Querying example.com for AAAA records.
+2025-08-10 14:37:39,230 - slixmpp.xmlstream.resolver - DEBUG - DNS: Querying example.com for A records.
+2025-08-10 14:37:39,242 - slixmpp.xmlstream.xmlstream - DEBUG - Connection failed: [Errno 99] Cannot assign requested address
+2025-08-10 14:37:39,243 - slixmpp.xmlstream.xmlstream - DEBUG - Event triggered: connection_failed
+2025-08-10 14:37:39,243 - slixmpp.xmlstream.xmlstream - DEBUG - Connection failed: [Errno 99] Cannot assign requested address
+2025-08-10 14:37:39,243 - slixmpp.xmlstream.xmlstream - DEBUG - Event triggered: connection_failed
+2025-08-10 14:37:39,253 - slixmpp.xmlstream.xmlstream - DEBUG - Connection failed: [Errno 99] Cannot assign requested address
+2025-08-10 14:37:39,253 - slixmpp.xmlstream.xmlstream - DEBUG - Event triggered: connection_failed
+2025-08-10 14:37:39,253 - slixmpp.xmlstream.xmlstream - DEBUG - Connection failed: [Errno 99] Cannot assign requested address
+2025-08-10 14:37:39,253 - slixmpp.xmlstream.xmlstream - DEBUG - Event triggered: connection_failed
+2025-08-10 14:37:39,263 - slixmpp.xmlstream.xmlstream - DEBUG - Connection failed: [Errno 99] Cannot assign requested address
+2025-08-10 14:37:39,264 - slixmpp.xmlstream.xmlstream - DEBUG - Event triggered: connection_failed
+2025-08-10 14:37:39,264 - slixmpp.xmlstream.xmlstream - DEBUG - Connection failed: [Errno 99] Cannot assign requested address
+2025-08-10 14:37:39,264 - slixmpp.xmlstream.xmlstream - DEBUG - Event triggered: connection_failed
+2025-08-10 14:37:39,273 - slixmpp.xmlstream.xmlstream - DEBUG - Connection failed: [Errno 99] Cannot assign requested address
+2025-08-10 14:37:39,274 - slixmpp.xmlstream.xmlstream - DEBUG - Event triggered: connection_failed
+2025-08-10 14:37:39,274 - slixmpp.xmlstream.xmlstream - DEBUG - Connection failed: [Errno 99] Cannot assign requested address
+2025-08-10 14:37:39,274 - slixmpp.xmlstream.xmlstream - DEBUG - Event triggered: connection_failed
+2025-08-10 14:37:39,282 - slixmpp.xmlstream.xmlstream - DEBUG - Connection failed: [Errno 99] Cannot assign requested address
+2025-08-10 14:37:39,282 - slixmpp.xmlstream.xmlstream - DEBUG - Event triggered: connection_failed
+2025-08-10 14:37:39,282 - slixmpp.xmlstream.xmlstream - DEBUG - Connection failed: [Errno 99] Cannot assign requested address
+2025-08-10 14:37:39,282 - slixmpp.xmlstream.xmlstream - DEBUG - Event triggered: connection_failed
+2025-08-10 14:37:39,290 - slixmpp.xmlstream.xmlstream - DEBUG - Connection failed: [Errno 99] Cannot assign requested address
+2025-08-10 14:37:39,291 - slixmpp.xmlstream.xmlstream - DEBUG - Event triggered: connection_failed
+2025-08-10 14:37:39,291 - slixmpp.xmlstream.xmlstream - DEBUG - Connection failed: [Errno 99] Cannot assign requested address
+2025-08-10 14:37:39,291 - slixmpp.xmlstream.xmlstream - DEBUG - Event triggered: connection_failed
