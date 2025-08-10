@@ -6,6 +6,7 @@ Main entry point for the Jabber/XMPP bot.
 import argparse
 import asyncio
 import logging
+import signal
 import sys
 from jabberbot import JabberBot
 
@@ -35,6 +36,17 @@ async def main_async():
     setup_logging(args.debug)
     logger = logging.getLogger(__name__)
     
+    bot = None
+    shutdown_event = asyncio.Event()
+    
+    def signal_handler():
+        logger.info("Received shutdown signal")
+        shutdown_event.set()
+    
+    # Setup signal handlers for graceful shutdown
+    for sig in [signal.SIGTERM, signal.SIGINT]:
+        asyncio.get_event_loop().add_signal_handler(sig, signal_handler)
+    
     try:
         # Create and run the bot
         bot = JabberBot(args.config)
@@ -43,18 +55,21 @@ async def main_async():
         # Connect and run the bot
         bot.connect()
         
-        # Keep the bot running
-        try:
-            while True:
-                await asyncio.sleep(1)
-        except asyncio.CancelledError:
-            pass
-            
+        # Keep the bot running until shutdown signal
+        await shutdown_event.wait()
+        
     except KeyboardInterrupt:
         logger.info("Bot stopped by user")
     except Exception as e:
         logger.error(f"Unexpected error: {e}", exc_info=True)
         sys.exit(1)
+    finally:
+        # Cleanup when stopping
+        if bot:
+            if hasattr(bot, 'scheduler') and bot.scheduler:
+                await bot.scheduler.stop()
+            bot.disconnect()
+            logger.info("Bot shutdown complete")
 
 def main():
     """Main function to run the Jabber bot."""

@@ -38,6 +38,7 @@ class TaskScheduler:
         # Start hourly announcements if enabled
         if self.hourly_announcements:
             self.hourly_task = asyncio.create_task(self._hourly_announcement_loop())
+            self.hourly_task.add_done_callback(self._task_done_callback)
             self.tasks.append(self.hourly_task)
     
     async def stop(self):
@@ -129,33 +130,55 @@ class TaskScheduler:
     async def schedule_task(self, coro, delay_seconds):
         """Schedule a one-time task."""
         async def delayed_task():
-            await asyncio.sleep(delay_seconds)
-            await coro
+            try:
+                await asyncio.sleep(delay_seconds)
+                await coro
+            except Exception as e:
+                self.logger.error(f"Scheduled task error: {e}", exc_info=True)
         
         task = asyncio.create_task(delayed_task())
+        task.add_done_callback(self._task_done_callback)
         self.tasks.append(task)
         return task
     
     async def schedule_daily_task(self, coro, hour, minute=0):
         """Schedule a daily recurring task."""
         async def daily_task():
-            while self.running:
-                now = datetime.now(self.bot.timezone)
-                target_time = now.replace(hour=hour, minute=minute, second=0, microsecond=0)
-                
-                # If target time has passed today, schedule for tomorrow
-                if target_time <= now:
-                    target_time += timedelta(days=1)
-                
-                sleep_seconds = (target_time - now).total_seconds()
-                await asyncio.sleep(sleep_seconds)
-                
-                if self.running:
-                    await coro
+            try:
+                while self.running:
+                    now = datetime.now(self.bot.timezone)
+                    target_time = now.replace(hour=hour, minute=minute, second=0, microsecond=0)
+                    
+                    # If target time has passed today, schedule for tomorrow
+                    if target_time <= now:
+                        target_time += timedelta(days=1)
+                    
+                    sleep_seconds = (target_time - now).total_seconds()
+                    await asyncio.sleep(sleep_seconds)
+                    
+                    if self.running:
+                        try:
+                            await coro
+                        except Exception as e:
+                            self.logger.error(f"Daily task execution error: {e}", exc_info=True)
+            except asyncio.CancelledError:
+                self.logger.info("Daily task cancelled")
+            except Exception as e:
+                self.logger.error(f"Daily task loop error: {e}", exc_info=True)
         
         task = asyncio.create_task(daily_task())
+        task.add_done_callback(self._task_done_callback)
         self.tasks.append(task)
         return task
+    
+    def _task_done_callback(self, task):
+        """Callback for when a task is done to handle exceptions."""
+        try:
+            task.result()
+        except asyncio.CancelledError:
+            self.logger.debug("Task was cancelled")
+        except Exception as e:
+            self.logger.error(f"Task exception: {e}", exc_info=True)
     
     def get_next_hourly_announcement(self):
         """Get the time of the next hourly announcement."""
