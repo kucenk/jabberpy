@@ -45,7 +45,7 @@ class JabberBot(slixmpp.ClientXMPP):
         
         # Bot configuration
         self.nick = self.config.get('bot', 'nickname', fallback='JabberBot')
-        self.timezone = pytz.timezone(self.config.get('bot', 'timezone', fallback='UTC'))
+        self.timezone = pytz.timezone(self.config.get('bot', 'timezone', fallback='UTC +7'))
         self.greeting_message = self.config.get('messages', 'greeting', 
                                               fallback='Hello {nick}! Welcome to the conference!')
         
